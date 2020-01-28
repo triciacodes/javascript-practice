@@ -4,7 +4,6 @@ import { css } from 'emotion'
 const styles = {
   form: css({
     maxWidth: '200px',
-    margin: '40px auto',
     background: 'white',
     padding: '10px',
   }),
@@ -23,15 +22,17 @@ const handleSubmit = e => {
 
 const Form = () => {
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
-      <input
-        className={styles.input}
-        id="username"
-        placeholder="username"
-        type="text"
-      />
-      <input className={styles.input} type="submit" value="Submit" />
-    </form>
+    <>
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <input
+          className={styles.input}
+          id="username"
+          placeholder="username"
+          type="text"
+        />
+        <input className={styles.input} type="submit" value="Submit" />
+      </form>
+    </>
   )
 }
 
