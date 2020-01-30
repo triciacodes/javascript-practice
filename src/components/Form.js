@@ -1,17 +1,20 @@
 import React from 'react'
 import { css } from 'emotion'
 
+import { padding } from '../global/constants'
+
 const styles = {
   form: css({
-    maxWidth: '200px',
     background: 'white',
+    marginBottom: padding,
+    maxWidth: '200px',
     padding: '10px',
   }),
   input: css({
+    border: '1px solid #aaa',
     display: 'block',
     margin: '10px auto',
     padding: '4px',
-    border: '1px solid #aaa',
   }),
 }
 

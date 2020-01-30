@@ -4,6 +4,7 @@ import { css } from 'emotion'
 import { mq } from './utils/media-queries'
 import { padding } from './global/constants'
 
+import ArrayMethods from './components/ArrayMethods'
 import Form from './components/Form'
 import Heading from './components/Heading'
 
@@ -22,6 +23,8 @@ function App() {
     <div className={styles.root}>
       <Heading typeStyle="h3" tag="h3" text="Forms" />
       <Form />
+      <Heading typeStyle="h3" tag="h3" text="Array Methods" />
+      <ArrayMethods />
     </div>
   )
 }
