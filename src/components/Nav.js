@@ -26,6 +26,7 @@ const Nav = () => {
       <NavLink to={Routes.HOOKS}>Hooks</NavLink>
       <NavLink to={Routes.FORMS}>Forms</NavLink>
       <NavLink to={Routes.ARRAY_METHODS}>Array Methods</NavLink>
+      <NavLink to={Routes.COMPONENTS}>Components</NavLink>
     </div>
   )
 }

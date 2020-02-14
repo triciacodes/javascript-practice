@@ -10,6 +10,7 @@ export const padding = 25
 
 export const Routes = {
   ARRAY_METHODS: '/array-methods',
+  COMPONENTS: '/components',
   FORMS: '/forms',
   HOME: '/',
   HOOKS: '/hooks',
